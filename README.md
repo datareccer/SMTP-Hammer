@@ -37,3 +37,19 @@ cd SMTP-Hammer
 bash
 pip install -r requirements.txt
 
+## Logging and Audit Trail
+
+SMTP Hammer automatically creates a full audit trail of all authentication attempts.
+
+Each time the tool is launched, a new log file is generated inside the `logs/` directory.  
+These log files include detailed, timestamped entries for every login attempt, indicating whether it succeeded or failed.
+
+- **Successes** are recorded with full username and password pairs.
+- **Failures** are similarly recorded to maintain a complete record.
+- **Timestamps** are included for every action.
+
+The logging system is implemented to support transparency, ethical research practices, and professional reporting standards.
+
+> "Trust, but verify." — Ronald Reagan
+
+This project adheres to the principles of responsible cybersecurity research, ensuring that all actions are verifiable, auditable, and documented.
