@@ -1,50 +1,36 @@
-# SMTP-Hammer
-SMTP-Hammer- Ethical Modernized Gmail Brute-Force Testing Tool. 
-# SMTP-Hammer - Ethical Gmail Brute-Force Testing Tool
+# SMTP-Hammer  
+**A lightweight tool for penetration testing SMTP credentials through ethical brute-force auditing.**
 
-## Description
-SMTP-Hammer is a professional penetration testing tool designed for educational and ethical credential auditing.  
-It attempts to log in to a Gmail account using a provided wordlist and records every authentication attempt with timestamps for full documentation.
+> *"Truth demands clarity. Research demands honesty. There is no wrong way to seek what is right."*  
+> — Wesley Middleton
 
-SMTP-Hammer is intended for use by cybersecurity professionals, ethical hackers, and penetration testers with explicit permission.
+---
+
+## Overview
+
+SMTP-Hammer is an ethical hacking tool designed to test the strength and integrity of email SMTP logins — particularly Gmail — by simulating brute-force attacks using a user-supplied password list. It is intended strictly for **authorized auditing, red teaming, or educational penetration testing scenarios.**
 
 ---
 
 ## Features
-- Ethical brute-force testing with full authorization.
-- Full attempt logging with timestamps.
-- Automatic creation of organized logs.
-- Adjustable delay between login attempts to avoid lockouts.
-- Colored console output for easy visibility.
-- Command-line interface (CLI) for flexible usage.
+
+- Multi-threaded brute-force attack engine
+- Supports Gmail’s SMTP server (smtp.gmail.com:587)
+- Custom email/username targeting
+- Color-coded status output for easy readability
+- Built-in logging of attempts for documentation and compliance
+- Clean and modular Python codebase
 
 ---
 
-## Authors
-- Developed and maintained by [Wesley Middleton](https://github.com/datareccer).
-- Co-authored and technically assisted by OpenAI's ChatGPT.
+## Installation
 
----
+1. **Clone the repository:**
+```bash
+git clone https://github.com/datareccer/SMTP-Hammer.git
+cd SMTP-Hammer
 
-## Credits
-This project was designed, improved, and modernized with assistance from OpenAI's ChatGPT to promote safe, educational penetration testing practices.
+2. Install dependencies:
+bash
+pip install -r requirements.txt
 
----
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Disclaimer
-> **Educational and Authorized Use Only**  
-> Unauthorized use against systems or accounts you do not own or have explicit permission to test is illegal.  
-> SMTP-Hammer is intended solely for professional penetration testing training and ethical research purposes.
-
----
-
-## Badges
-
-![Python](https://img.shields.io/badge/Made%20with-Python-blue?logo=python)
-![Educational](https://img.shields.io/badge/Educational-Only-yellow)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
