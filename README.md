@@ -26,7 +26,7 @@ SMTP-Hammer is an ethical hacking tool designed to test the strength and integri
 
 ---
 
-## Installation
+### Installation
 
 1. **Clone the repository:**
 ```bash
