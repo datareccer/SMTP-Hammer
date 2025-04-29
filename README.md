@@ -1,5 +1,8 @@
 # SMTP-Hammer  
-**A lightweight tool for penetration testing SMTP credentials through ethical brute-force auditing.**
+[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue)
+![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+![Repo Size](https://img.shields.io/github/repo-size/datareccer/SMTP-Hammer**A lightweight tool for penetration testing SMTP credentials through ethical brute-force auditing.**
 
 > *"Truth demands clarity. Research demands honesty. There is no wrong way to seek what is right."*  
 > — Wesley Middleton
