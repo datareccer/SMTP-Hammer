@@ -1,0 +1,10 @@
+name: smtp-hammer-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - flake8
+  - pytest
+  - pip:
+    - -r requirements.txt  # optional: if you have a requirements.txt file, pip will install from it
