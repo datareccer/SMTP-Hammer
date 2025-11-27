@@ -1,4 +1,4 @@
-mport smtplib
+import smtplib
 import logging
 import argparse
 from typing import List
